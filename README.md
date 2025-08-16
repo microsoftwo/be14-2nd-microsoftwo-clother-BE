@@ -376,6 +376,187 @@ public void setDataExpire(String key, String value,
 
 <br><br>
 
+### <p id="5-3">5-3. 📡 와이어프레임 </p>
+
+<details>
+    <summary>로그인 화면</summary>
+
+####  로그인 화면 
+<img src = "https://github.com/user-attachments/assets/5a6b0043-0e99-47bd-a65a-41b8eba2aba4">
+</details>
+
+<details>
+    <summary> 포스팅 등록 화면 </summary>
+    
+####  포스팅 등록 화면
+<img src = "https://github.com/user-attachments/assets/8db5e0ec-d20d-4ce6-b3c2-dd3488cb6ac5">
+</details>
+
+<details>
+
+<summary> 마이페이지 화면 </summary>
+
+#### 마이페이지 화면
+
+<img src = "https://github.com/user-attachments/assets/60713110-f894-4282-8f37-43186ac94390">
+    
+</details>
+
+<details>
+
+<summary> 카테고리 별 포스팅 화면 </summary>
+
+#### LOOK 카테고리 선택 시 화면
+
+<img src = "https://github.com/user-attachments/assets/3a45410c-770a-46db-af1b-eb9176cb2dac">
+
+
+#### MAKEUP 카테고리 선택 시 화면 
+
+<img src = "https://github.com/user-attachments/assets/3fd7271b-cccb-4ee4-a536-2ff9903ad6f0">
+
+
+#### HAIR 카테고리 선택 시 화면 
+
+<img src = "https://github.com/user-attachments/assets/f0865880-25c9-43c7-a9cf-b2a80c84213a">
+  
+</details>
+
+<details>
+
+<summary> 스타일 쉐어 게시판 화면 </summary>
+
+#### 스타일 쉐어 게시판 화면
+
+<img src = "https://github.com/user-attachments/assets/8272d581-af3c-4d87-9c04-a489533f15af">
+
+</details>
+
+<details> 
+    
+<summary> 포스팅 상세 화면 </summary>
+
+#### 포스팅 상세 화면
+
+<img src = "https://github.com/user-attachments/assets/18ea81ca-669f-40a4-8f44-a08e5ce40053">
+
+</details>
+
+
+
+<br><br>
+
+### <p id="5-4">5-4. 👀 스토리보드 </p>
+
+<details>
+    <summary>랜딩 화면</summary>
+  
+  #### 랜딩 화면
+<img width="1150" alt="스크린샷 2025-04-19 22 19 40" src="https://github.com/user-attachments/assets/d6b9defb-9893-40b9-b1a3-ded0585fe556" />
+
+</details>
+
+<details>
+  <summary>회원가입</summary>
+
+  #### 회원가입 화면
+  <img width="1150" alt="스크린샷 2025-04-16 07 45 10" src="https://github.com/user-attachments/assets/2557597b-f386-492f-aca0-44c384a8f13b" >
+
+
+  #### 회원가입 성공 화면
+  <img width="1150" alt="스크린샷 2025-04-19 21 56 40" src="https://github.com/user-attachments/assets/7e9e7bf7-2cae-4c88-890d-6adfb7458667" />
+</details>
+
+<details>
+  <summary>로그인</summary>
+  
+  #### 로그인 화면
+<img width="1150" alt="스크린샷 2025-04-19 22 21 12" src="https://github.com/user-attachments/assets/2ed2f059-6230-456e-b6c6-54e01dd98718" />
+
+  #### 로그인 실패 화면
+  <img width="1151" alt="스크린샷 2025-04-19 21 57 56" src="https://github.com/user-attachments/assets/e7d6e588-e83a-4481-a168-557797b07a66" />
+
+</details>
+
+<details>
+  <summary>포스팅</summary>
+  
+  #### 메인페이지 화면
+<img width="1150" alt="스크린샷 2025-04-19 22 07 57" src="https://github.com/user-attachments/assets/3e0738ee-8d7a-4840-b9d6-18084f1090a3" />
+
+  #### 포스팅 조회 화면
+<img width="1150" alt="스크린샷 2025-04-19 22 10 05" src="https://github.com/user-attachments/assets/59c0889a-9d4c-45db-a40d-28ddbfaf388e" />
+
+
+  #### 포스팅 등록 화면
+<img width="1149" alt="스크린샷 2025-04-19 22 10 43" src="https://github.com/user-attachments/assets/0c53812c-3a11-4919-8402-d24473c15f00" />
+
+</details>
+
+<details>
+  <summary>스타일 쉐어</summary>
+  
+  #### 스타일 쉐어 게시판 화면
+<img width="1146" alt="스크린샷 2025-04-19 22 04 16" src="https://github.com/user-attachments/assets/454eae00-12f5-4698-93f7-b0eec96d2a20" />
+
+  #### 스타일 쉐어 게시물 화면
+<img width="1145" alt="스크린샷 2025-04-19 22 05 47" src="https://github.com/user-attachments/assets/9a8eca29-4ee4-44f3-88bb-02873c9c0975" />
+
+
+  #### 스타일 쉐어 게시물 댓글 화면
+<img width="1147" alt="스크린샷 2025-04-19 22 07 02" src="https://github.com/user-attachments/assets/cde7f7dd-d594-4fb8-be27-f8832acee1e4" />
+
+
+  #### 스타일 쉐어 게시물 등록 화면
+<img width="1146" alt="스크린샷 2025-04-19 22 22 40" src="https://github.com/user-attachments/assets/ffec02ca-3129-4f84-9751-1ee5e3711bef" />
+
+
+</details>
+
+
+<details>
+  <summary>마이페이지</summary>
+  
+  #### 마이페이지 화면
+<img width="1152" alt="스크린샷 2025-04-19 22 00 18" src="https://github.com/user-attachments/assets/ec8e04af-46bf-4eba-be47-ac00e8372cf9" />
+
+  #### 회원정보 수정 화면
+<img width="1149" alt="스크린샷 2025-04-19 22 01 10" src="https://github.com/user-attachments/assets/dd910f46-2ccf-4ec7-870e-0dc97d62dadb" />
+
+  #### 회원정보 수정 성공 화면
+<img width="1150" alt="스크린샷 2025-04-19 22 01 27" src="https://github.com/user-attachments/assets/80fe1850-2a3e-4d5b-a7ac-a21af59681f2" />
+
+  #### 나의 활동 기록
+<img width="1147" alt="스크린샷 2025-04-19 22 02 39" src="https://github.com/user-attachments/assets/c8ffa48a-48ed-41ae-bd53-44e3dc6e2930" />
+
+  #### 로그아웃
+<img width="1150" alt="스크린샷 2025-04-19 22 24 01" src="https://github.com/user-attachments/assets/a1440732-fe53-4db6-b6ac-5f857129f3e4" />
+
+</details>
+
+<details>
+  <summary>공통 레이아웃</summary>
+  
+  #### 헤더
+<img width="1150" alt="스크린샷 2025-04-19 22 16 09" src="https://github.com/user-attachments/assets/5816c181-b548-4e0c-ae50-58fd4cb6e31a" />
+
+  #### 푸터
+<img width="1150" alt="스크린샷 2025-04-19 22 16 30" src="https://github.com/user-attachments/assets/9e496558-c5e5-4546-a992-91be6914d73c" />
+
+</details>
+
+
+
+<br><br>
+
+### <p id="5-5">5-5. 📌 테스트 결과 보고서 </p>
+
+테스트 결과에 대한 자세한 내용과 시연 영상은 아래 노션 링크에서 확인하실 수 있습니다.  
+
+[[🔗테스트 결과 보고서 Link]](https://ohgiraffers.notion.site/1d6649136c11805c884cd7559d1ab25b?pvs=4)
+
+<br><br>
+
 ---
 
 # <p id="6">🛠 6. 기술 스택 </p>
