@@ -1,61 +1,25 @@
 # 👕 Clother
 
-### 의류부터 헤어, 메이크업까지 다양한 스타일 정보를 한곳에서! 
-### 통합 스타일링 서비스: CLOTHER 👚
+### 의류부터 헤어, 메이크업까지 다양한 스타일 정보를 한곳에서! 통합 스타일링 서비스: Clother 👚
 
 <img src="https://github.com/user-attachments/assets/8e8c7919-f4dd-45b0-9c94-faab9ea0231a">
-<img src="https://github.com/user-attachments/assets/14df180e-8b17-4ba1-a5a5-573c32d46d33">
 
 <br><br><br>
 
----
-
-# 🚀 Team microsoftwo
-
-| <img src="https://github.com/user-attachments/assets/9e5c3e83-7f0d-41ca-816c-8133409537e1" width="200"> | <img src="https://github.com/user-attachments/assets/8f52dde1-3590-4e2f-880d-32098f5d098a" width="200"> | <img src="https://github.com/user-attachments/assets/0b56df7f-c48d-4975-abff-aeb51af8f2da" width="200"> | <img src="https://github.com/user-attachments/assets/f5cbf6cc-ff54-4720-be15-390182415083" width="200"> | <img src="https://github.com/user-attachments/assets/1d2619c6-f467-485e-9d90-14c7c43bc316" width="200"> |
-| :-----------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------: |
-|                                                 김기종                                                  |                                                 조윤태                                                  |                                                 신민경                                                  |                                                 황수민                                                  |                                                 이예원                                                  |
-| [<img src="https://img.shields.io/badge/Github-Link-181717?logo=Github">](https://github.com/rrangeess) |  [<img src="https://img.shields.io/badge/Github-Link-181717?logo=Github">](https://github.com/cxzaqq)   |  [<img src="https://img.shields.io/badge/Github-Link-181717?logo=Github">](https://github.com/mmmv41)   | [<img src="https://img.shields.io/badge/Github-Link-181717?logo=Github">](https://github.com/emily9949) |  [<img src="https://img.shields.io/badge/Github-Link-181717?logo=Github">](https://github.com/oni128)   |
-
-<br><br>
 
 ---
 
 # 📋 목차
 
-<a href="#1">📁 1. 프로젝트 기획</a>
-
-<a href="#1-1">1-1. 배경 및 필요성</a>
-
-<a href="#1-2">1-2. 주요 기능</a>
+<a href="#1">📁 1. 프로젝트 소개</a>
 
 <a href="#2">🔎 2. DDD (Domain-Driven Design) </a>
 
-<a href="#2-1">2-1. DDD (Event-Storming) </a>
-
-<a href="#2-2">2-2. DDD (Context-Map) </a>
-
 <a href="#3">⚙️ 3. 프로젝트 설계 </a>
-
-<a href="#3-1">3-1. 물리 모델링 (ERD) </a>
-
-<a href="#3-2">3-2. MSA 아키텍쳐 </a>
-
-<a href="#3-3">3-3. REST API 설계 (Swagger) </a>
-
-<a href="#3-4">🧱  3-4. Redis를 활용한 이메일 인증  </a>
 
 <a href="#4">🎮 4. 테스트 결과 </a>
 
-<a href="#4-1">4-1. 단위 테스트 결과 </a>
-
-<a href="#4-2">4-2. API 테스트 </a>
-
 <a href="#5">✍🏻 5. 문서 </a>
-
-<a href="#5-1">5-1. 요구사항 명세서 </a>
-
-<a href="#5-2">5-2. WBS (Work Breakdown Structure) </a>
 
 <a href="#6">🛠 6. 기술 스택 </a>
 
@@ -65,25 +29,50 @@
 
 ---
 
-# <p id="1">📁 1. 프로젝트 기획</p>
+# <p id="1">📁 1. 프로젝트 소개</p>
 
-### <p id="1-1">1-1. 배경 및 필요성</p>
+### 1-1. 프로젝트 기획 배경
 
-기존 서비스에서 의류를 포함한 헤어, 액세사리를 아우르는 스타일링 정보를 한번에 얻는 것이 매우 어렵다. 쇼핑 앱은 보통 의류 정보만 제공하며, 헤어스타일과 메이크업 제품 정보까지 연결되지 않는다.
-사용자는 원하는 스타일을 찾으면 직접 댓글로 질문하거나 추가 검색을 해야 하는 불편함이 있다. 기존 스타일 공유 서비스도 한계를 가진다. 예를 들어, 온더룩은 의류 코디만 제공하고, 룩업은 남성 코디 위주이며, 인스타그램은 스타일링 정보를 체계적으로 제공하지 않는다.
-이를 해결하기 위해 ‘Clother’ 스타일링 공유 서비스를 개발했다. 사용자는 스타일 사진을 보고 헤어샵, 메이크업 제품, 의류 브랜드 정보를 한 번에 확인할 수 있으며, 같은 아이템을 활용한 다양한 코디 사례도 찾아볼 수 있다.
-또한, 팔로우한 유저의 스타일 변화 및 방문한 헤어샵 정보도 확인할 수 있어 보다 편리한 스타일링 경험을 제공한다.
+#### 1. 스타일 정보를 한 번에 얻기 힘들다.
+> 🛍 쇼핑 앱은 대부분 의류 정보만 제공 <br>
+💇‍♀️ 헤어, 메이크업 정보는 따로 검색해야 함 <br>
+💬 마음에 드는 스타일이 있어도 댓글로 물어보거나, 다시 검색해야 하는 번거로움
 
-### <p id="1-2">1-1. 주요 기능 </p>
+#### 2. 기존 스타일 공유 서비스의 한계
+> 온더룩: 의류 중심 코디만 제공 <br>
+룩업: 남성 위주의 스타일 <br>
+인스타그램: 정보가 흩어져 있고, 체계적인 탐색 어려움
 
-- 코디뿐만 아니라 헤어, 메이크업, 악세서리까지의 스타일링을 공유할 수 있는 SNS
+### 🌟 그래서 만든 ‘Clother’
+‘Clother’는 스타일 정보를 한눈에 확인할 수 있는 통합 스타일 공유 플랫폼입니다.
+> 📷 스타일 사진 하나로 의류 브랜드, 헤어샵, 메이크업 제품까지 모두 확인 가능 <br>
+👗 같은 아이템으로 다양한 스타일링 사례 확인 <br>
+💁🏻‍♀️ 팔로우한 유저의 스타일 변화, 방문한 헤어샵 정보도 함께 확인
+
+### 💡 Clother가 제공하는 경험
+단순한 코디 공유를 넘어서, 전체 스타일링을 손쉽게 탐색하고
+자신만의 스타일을 만들 수 있는 공간을 제공합니다.
+
+<br>
+
+### 1-2. 프로젝트 주요 기능
+<img width="1006" height="458" alt="image" src="https://github.com/user-attachments/assets/dc0e86b2-a61b-4265-802c-99564ed3d48d" />
+
+<img src = "https://github.com/user-attachments/assets/17495b98-d25a-4a48-af5b-3119b567dcf8">
+
+<img src="https://github.com/user-attachments/assets/d7f8324d-d6df-493b-9dfa-0e1a10f3ad1d">
+
+<img src="https://github.com/user-attachments/assets/28caa8f5-c9e0-44b3-b21c-097a86e4cc50">
+
+### 주요 기능
+
+- 코디뿐만 아니라 헤어, 메이크업, 악세서리까지의 스타일링을 공유할 수 있는 SNS.
 
 - 사용자는 자신이 원하는 스타일의 포스팅을 선택하고, 포스팅에 달린 태그를 통해 제품 정보 알 수 있고, 구매링크를 통해 바로 구매 혹은 예약처까지 연결될 수 있다.
 
 - 포스팅 시에는 링크, 등록된 상품 등을 태그로 사용할 수 있고 원하는 상품이 없을 시 상품 등록 신청이 가능하다.
 
-- 훈수 게시판을 통해 자신의 스타일링에 대한 피드백을 받을 수 있다.
-  좋아요, 댓글 등 SNS의 기본적인 기능
+- 스타일쉐어 게시판을 통해 자신의 스타일링에 대한 피드백을 받을 수 있다.
 
 <br><br>
 
@@ -610,6 +599,14 @@ public void setDataExpire(String key, String value,
 <br><br>
 
 ---
+# 🚀 Team microsoftwo
+
+| <img src="https://github.com/user-attachments/assets/9e5c3e83-7f0d-41ca-816c-8133409537e1" width="200"> | <img src="https://github.com/user-attachments/assets/8f52dde1-3590-4e2f-880d-32098f5d098a" width="200"> | <img src="https://github.com/user-attachments/assets/0b56df7f-c48d-4975-abff-aeb51af8f2da" width="200"> | <img src="https://github.com/user-attachments/assets/f5cbf6cc-ff54-4720-be15-390182415083" width="200"> | <img src="https://github.com/user-attachments/assets/1d2619c6-f467-485e-9d90-14c7c43bc316" width="200"> |
+| :-----------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------: |
+|                                                 김기종                                                  |                                                 조윤태                                                  |                                                 신민경                                                  |                                                 황수민                                                  |                                                 이예원                                                  |
+| [<img src="https://img.shields.io/badge/Github-Link-181717?logo=Github">](https://github.com/rrangeess) |  [<img src="https://img.shields.io/badge/Github-Link-181717?logo=Github">](https://github.com/cxzaqq)   |  [<img src="https://img.shields.io/badge/Github-Link-181717?logo=Github">](https://github.com/mmmv41)   | [<img src="https://img.shields.io/badge/Github-Link-181717?logo=Github">](https://github.com/emily9949) |  [<img src="https://img.shields.io/badge/Github-Link-181717?logo=Github">](https://github.com/oni128)   |
+
+<br><br>
 
 # <p id="7">🫡 7. 동료평가 </p>
 
