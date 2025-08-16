@@ -1,6 +1,7 @@
-<br>
+# 👕 Clother
 
-# 👕 Clother (Style Sharing Community) 👚
+### 의류부터 헤어, 메이크업까지 다양한 스타일 정보를 한곳에서! 
+### 통합 스타일링 서비스: CLOTHER 👚
 
 <img src="https://github.com/user-attachments/assets/8e8c7919-f4dd-45b0-9c94-faab9ea0231a">
 <img src="https://github.com/user-attachments/assets/14df180e-8b17-4ba1-a5a5-573c32d46d33">
